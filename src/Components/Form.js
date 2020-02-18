@@ -44,7 +44,7 @@ return (
     <label htmlFor="name">Name</label>
 	    <input id="name" type="text" value={member.name} name="name" placeholder="Enter name" onChange={handleChanges} /><br/><br/>
     <label htmlfor='email'>Email</label>
-        <input id='email' type='email' name="email" placeholder='Enter email'/><br/><br/>
+        <input id='email' type='email'  name="email" placeholder='Enter email'/><br/><br/>
     <label htmlfor='role'>Role</label>
         <input id='role' type='text' value={member.role} name="role" placeholder='Enter your role' onChange={handleChanges}/><br/><br/>
 

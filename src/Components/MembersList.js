@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card, Col, Row } from 'reactstrap';
 
 
 
@@ -10,11 +11,13 @@ const MembersList = props => {
     <div>
 
         {props.members.map(element => (
-
-                <div>
+            <Row sm='6'>
+                <Card >
                     <h2>{element.name}</h2>
                     <h3>{element.role}</h3>
-                </div>
+                    <h3>{element.email}</h3>
+                </Card>
+            </Row>
         )) }
 
     </div>
